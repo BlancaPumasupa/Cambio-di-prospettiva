@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 5px;
+  background: whitesmoke;
+  background-color: whitesmoke;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 5px;
+  font-size: 40px;
+  text-align: center;
+  background: #FF841F;
+  margin-bottom: 20px;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%
+  
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+  border-color: green;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #FF841F;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: #FF841F;
+   padding: 20px;
+   
+   margin-bottom: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 5px;
+  text-align: center;
+  background: #FF841F;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+.btnA {
+    color: rgb(0, 0, 0);
+    
+    font-size: 20px;
+    text-decoration: none;
+    
+    position: relative;
+    padding: 15px 30px;
+    box-shadow: 1px 1px 0 #666;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+     transition: all 0.3s ease;
+    margin: 10px;
+    background:#d8d7d4;
+    display: inline-block;
+    border-radius: 8px;
+  }
+  .btnB {
+    color: #FFEA00;
+    
+    font-size: 20px;
+    text-decoration: none;
+    
+    position: relative;
+    padding: 15px 30px;
+    box-shadow: 1px 1px 0 #666;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+     transition: all 0.3s ease;
+    margin: 10px;
+    background: black;
+    display: inline-block;
+    border-radius: 8px;
+  }
+  .btnC {
+    color:#83FF70;
+    
+    font-size: 20px;
+    text-decoration: none;
+    
+    position: relative;
+    padding: 15px 30px;
+    box-shadow: 1px 1px 0 #666;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+     transition: all 0.3s ease;
+    margin: 10px;
+    background:black;
+    display: inline-block;
+    border-radius: 8px;
+  }
+  .btnStd {
+    color: rgb(0, 0, 0);
+    
+    font-size: 20px;
+    text-decoration: none;
+    
+    position: relative;
+    padding: 15px 30px;
+    box-shadow: 1px 1px 0 #666;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+     transition: all 0.3s ease;
+    margin: 10px;
+    background: #FF841F;
+    display: inline-block;
+    border-radius: 8px;
+  }
+  .btnA:hover {
+    
+    top: 2px;
+    left: 2px;
+    
+  }
+  .btnB:hover {
+    
+    top: 2px;
+    left: 2px;
+    
+  }
+  .btnC:hover {
+    
+    top: 2px;
+    left: 2px;
+    
+  }
+  .btnStd:hover {
+    
+    top: 2px;
+    left: 2px;
+    
+  }
+  
+</style>
+</head>
+
+<body>
+
+<div class="header">
+  <h2>CAMBIO DI PROSPETTIVA</h2>
+  <h3>Come l’architettura può favorire il comfort degli utenti ciechi e ipovedenti</h3>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+
+    <div class="card">
+      <h2>Abstract</h2>
+      <p font-size:auto>Il linguaggio architettonico ha un forte potere comunicativo. Esso risulta ancor più rilevante quando per relazionarsi con esso e per conoscere i luoghi progettati gli utenti utilizzano tutti i mezzi sensoriali in loro possesso. Tuttavia, ad oggi, date le nostre abitudini di vita, la vista ricopre un ruolo indiscusso da protagonista nell’esperienza che abbiamo dei luoghi. Esso risulta essere per il noi il primordiale senso orientativo e la modalità più immediata che scegliamo per valutare ed apprezzare ciò che ci circonda. Da qui nasce l’interesse per approfondire come chi non possiede più la vista o chi ne possiede solo un residuo viva effettivamente i luoghi pubblici e privati, di rara frequentazione e quelli che fanno parte della routine giornaliera. Tutti sono circondati dall’architettura, per cui il quesito diventa se progettare in modo consapevole sotto questo punto di vista possa essere un’operazione in grado di migliorare lo svolgimento delle attività e la qualità di fruizione dei luoghi per le persone cieche e ipovedenti.
+        Partendo dal presupposto che la progettazione architettonica utilizza gli elementi a disposizione per creare spazi rivolti all’uomo, come requisito primordiale chi progetta si deve immedesimare nel miglior modo possibile in chi vivrà il luogo progettato. Questo procedimento è in realtà complesso poiché pieno di dettagli da considerare. Il tentativo è cercare di comprendere in primo luogo quali elementi architettonici possono essere percepiti e come vengono percepiti nonostante la perdita della vista. Grazie a queste informazioni l’obbiettivo della tesi è quello di ipotizzare ragionamenti da applicare metodicamente alla progettazione con il fine di rendere più semplice la comprensione sotto l’aspetto orientativo dei luoghi pubblici e più significativi dal punto di vista dell’esperienza sensoriale i luoghi privati.</p>
+    </div>
+
+    <div class="card">
+      <h2>CAPITOLO 1</h2>
+        <h3>Disabilità visiva</h3>
+          <h4>LA CECITÀ E L’IPOVISIONE</h4>
+            <p>L’Organizzazione Mondiale della Sanità (OMS) definisce la disabilità visiva in base a due fattori: l’ampiezza del campo visivo e l’acuità visiva o visus. Nel soggetto normo vedente il campo visivo copre un’ampiezza di circa 120° sul piano verticale e di circa 180° sul piano orizzontale e corrisponde all’ampiezza della scena visibile quando lo sguardo rimane fisso su un punto nello spazio. Tuttavia, questo parametro non viene considerato da tutti i paesi nei sistemi di valutazione delle capacità visive. L’acuità visiva invece è la capacità di distinguere, da una certa distanza, le forme o di discriminare due punti vicini. Questa capacità viene espressa con frazioni numeriche diverse per ogni paese. In Italia si esprime in decimi, mentre in USA per esempio vengono usati i ventesimi. 
+                Il metodo maggiormente utilizzato per valutare l’acutezza visiva è il test di Snellen grazie a cui si valuta la capacità di leggere un ottotipo di 10 righe alla distanza di circa 5 metri. Secondo i criteri italiani un visus di 10/10 corrisponde alla capacità di leggere tutte le righe e corrisponde alla visione normale. Se la persona non è in grado di leggere nemmeno la prima riga si può avvicinare. In base alla distanza in cui riesce a vedere la prima riga si attribuisce un valore di acuità visiva. Per gli adulti l’ottotipo corrisponde ad un tabellone con delle lettere mentre per i bambini dai 2 ai 5 anni esse vengono sostituite da disegni o simboli grafici.1 
+                Sulla base di questo test secondo i criteri della legge 138 del 3 aprile 2001 si definisce: 
+                Ipovisione grave – residuo visivo non superiore a 1/10, oppure residuo perimetrico binoculare inferiore al 30%. 
+                Ipovisione medio-grave – residuo visivo non superiore a 2/10, anche con la presenza di un’eventuale correzione, oppure un residuo perimetrico binoculare inferiore al 50%. 
+                Ipovisione lieve – residuo visivo non superiore ai 3/10 in entrambi gli occhi o nell’occhio migliore, anche con la presenza di un’eventuale correzione, oppure un residuo perimetrico binoculare inferiore al 60%. 
+                Cecità totale – totale mancanza della vista in entrambi gli occhi o la sola percezione dell’ombra e della luce o del moto della mano in entrambi gli occhi o nell’occhio migliore, oppure residuo perimetrico binoculare inferiore al 3% 
+                Cecità parziale – residuo visivo inferiore a 1/20 in entrambi gli occhi o nell’occhio migliore, anche con la presenza di un’eventuale correzione, oppure residuo perimetrico binoculare inferiore al 10% 2 
+                La disabilità visiva quindi, sia che si tratti di ipovisione sia che si tratti di cecità, comporta delle alterazioni in questi due aspetti che caratterizzano la vista e che possono trovarsi in forma monoculare o binoculare, ovvero colpire uno o entrambi gli occhi. Se si tratta di una riduzione dell’acuità si parla di ambliopia mentre se la riduzione riguarda il campo visivo si tratta di emianopsia o scotomi. 
+                Secondo un articolo di Katia Caravello tratto dalla rivista associativa “Il Corriere dei Ciechi” n. 3 del 2016, il numero delle persone ipovedenti in Italia è in crescita per due motivi. Rispetto al passato molte patologie di ipovisione che possono portare alla cecità oggi possono essere curate, evitando così la perdita totale della vista.3 Un ulteriore motivo corrisponde all’aumento della popolazione anziana in Italia, poiché le patologie di ipovisione compaiono soprattutto in età senile. 
+                Dagli ultimi dati INPS relativi al numero di ciechi in Italia l’1,9% delle persone dai 15 anni in su soffre di gravi limitazioni sul piano visivo. Questa percentuale sale al 5,0% tra chi ha più di 65 anni e all’8,0% tra chi ha più di 75 anni.4 
+                Mentre si riesce ad immaginare la condizione dell’essere cieco associandola ad una situazione di buio completo, l’ipovisione può essere fonte di disorientamento se non si è informati al riguardo. Comunemente si pensa che una persona che non vede normalmente abbia solo bisogno di un ausilio correttivo come gli occhiali, ma si ignora il fatto che in una situazione di ipovisione la correzione tramite l’utilizzo di lenti spesso non aiuta in nessun modo. E’ importante ricordare che sia la cecità che l’ipovisione sono patologie strettamente legate al significato di handicap di mobilità poiché a causa di esse viene compromessa la capacità di affrontare in modo autonomo ambienti conosciuti e non, con la massima sicurezza, il minimo sforzo ed il massimo rendimento. La mobilità, infatti, è condizionata da fattori motori, sensoriali, cognitivi, psicologici e sociali. Per questo motivo oltre all’handicap fisico è importante ricordare che anche le limitazioni sensoriali come la minorazione visiva causano problemi di mobilità, mettendo a rischio le persone affette. 5 
+                In termini di accessibilità risulta utile definire che il non vedente è chi non può utilizzare le informazioni visive per la mobilità mentre l’ipovedente è chi invece può utilizzare informazioni visive qualora esse siano comunicate in modo efficace relativamente alle rispettive caratteristiche del diverso residuo visivo legato alle diverse patologie di ipovisione. 6 
+                L’ipovisione, infatti, si distingue in base alla parte di campo visivo danneggiata, può essere di tipo centrale o periferico. Nel caso di ipovisione centrale la vista avrà grandi difficoltà nell’osservare elementi o situazioni in cui i dettagli sono di rilevante importanza, come per esempio durante la lettura di un testo. L’ipovisione periferica invece causa maggiori difficoltà in situazioni di orientamento e mobilità.7 
+                In presenza di tali patologie possono anche degenerare le capacità percettive come il riconoscimento dei colori. Imparare a convivere con tali riduzioni delle capacità visive e quindi a utilizzare gli altri sensi per compensare la mancanza di informazioni comporta un trauma fisiologico e psicologico di rilevante importanza. </p>
+    
+          <h4>PATOLOGIE MAGGIORMENTE DIFFUSE</h4>
+            <h5>Anatomia dell’occhio umano Disabilità visiva</h5>
+              <p>Per fornire una spiegazione chiara delle patologie visive più comuni e di quello che comportano è importante spiegare prima la conformazione ed il funzionamento dell’occhio umano. Esso è composto da più parti ed ognuna di esse ha un ruolo ben preciso strettamente correlato alle altre. 
+               Lo strato più esterno degli occhi è composto dalla sclera e dalla cornea, la prima lente che la luce incontra, essa è costituita da proteine trasparenti. Sotto alla sclera la retina contiene i ricettori cellulari distinguibili in bastoncelli e coni, responsabili della percezione rispettivamente del movimento e dei colori. Ogni ricettore è collegato alla corteccia visiva grazie al nervo ottico. Il modo in cui questo sistema funziona è molto simile ad una macchina fotografica; quindi, per una corretta visione è necessario un ininterrotto passaggio di luce dalla parte anteriore a quella posteriore dell’occhio dove si trova la retina.8 
+              La luce viene messa a fuoco dalla cornea mentre il cristallino posto dietro l’iride rifrange e curva i raggi luminosi così da formare un’immagine il più nitida possibile sulla retina. La retina è la parte del bulbo oculare deputata alla ricezione dei raggi luminosi e alla loro trasformazione in segnali nervosi.9</p>
+      
+            <h5>Glaucoma </h5>
+              <p>Il glaucoma è una malattia cronica e progressiva che può portare alla perdita della vista. Questa patologia è dovuta all’aumento della pressione interna dell’occhio e in limitati casi alla riduzione dell’apporto di sangue al nervo ottico ovvero il nervo responsabile della trasmissione delle informazioni visive dalla retina al cervello. Questo danno causa la perdita del campo visivo inizialmente nelle porzioni più periferiche sviluppandosi progressivamente fino alle porzioni centrali del campo visivo. La prima a danneggiarsi quindi non è la parte centrale bensì è la visione laterale, superiore e inferiore per questo è possibile che non venga recepito immediatamente dalla persona affetta.10 
+              Se le fibre del nervo ottico vengono danneggiate si generano degli scotomi, ovvero delle zone all’interno del campo visivo in cui non è più possibile vedere. Gli scotomi sono inizialmente piccoli e vengono notati solo in uno stato già avanzato. Quando le cellule vengono definitivamente danneggiate la perdita della vista diventa definitiva ed irreversibile. 
+              Il glaucoma può colpire chiunque o essere congenito, i bambini che ne soffrono come sintomi presentano gli occhi offuscati, la sensibilità alla luce e una lacrimazione eccessiva.11 </p>  
+          <h4></h4>            
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="fakeimg" style="height:100px;">Image</div>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg">
+        <a onclick="coloroptionA()" href="#" class="btnA">Alto contrasto - Opzione A</a>
+        <a onclick="coloroptionB()" href="#" class="btnB">Alto contrasto - Opzione B</a>
+        <a onclick="coloroptionC()" href="#" class="btnC">Alto contrasto - Opzione C</a>
+        <a onclick="coloroptionStandard()" href="#" class="btnStd">Configurazione standard</a>
+        </div><br>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+<script>
+    function coloroptionA(){ 
+        document.body.style.color="#000000";
+       // document.querySelectorAll('h2').forEach(e=>e.style.color="yellow");
+        document.querySelectorAll('div').forEach(e=>e.style.background="#d8d7d4");
+    }
+    function coloroptionB(){
+        //document.body.style.background="blue";
+        document.body.style.color="#FFEA00";
+        
+        //document.querySelectorAll('h2').forEach(e=>e.style.color="white");
+        document.querySelectorAll('div').forEach(e=>e.style.background="#000000");
+        
+    }
+    function coloroptionC(){
+        
+        document.body.style.color="#83FF70";
+        //document.querySelectorAll('h2').forEach(e=>e.style.color="black");
+        document.querySelectorAll('div').forEach(e=>e.style.background="#000000");
+    }
+    function coloroptionStandard(){
+        
+        document.body.style.color="#000000";
+        //document.querySelector('.btnA').style.background='red';
+        
+        //document.querySelectorAll('h2').forEach(e=>e.style.color="black");
+        document.querySelectorAll('div').forEach(e=>e.style.background="#FF841F");
+    }
+</script>
+</body>
+</html>
